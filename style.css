@@ -63,25 +63,121 @@ header .headline{
 	color:#fff;
 }
 
-.main{
-	width:840px;
-	/*height:1400px;*/
-	/*background-color:green;*/
+main{
+	width:800px;
 	margin:0 auto;
+	padding:70px 0;
 }
 
 .blog{
-	width:600px;
-	height:1400px;
-	/*background-color:limegreen;*/
+	width:540px;
 	float:left;
+	margin-right:30px;
+}
+
+.blog-headline{
+	border-bottom:8px solid #f7f7f7;
+	text-align:center;
+	line-height:0.6;
+}
+
+.blog-box{
+	padding-top:50px;
+}
+
+
+.blog-item{
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #f7f7f7;
+}
+
+.blog-image{
+	float:left;
+	height:180px;
+}
+
+.blog-text-headline{
+	padding-bottom:15px;
+}
+
+.blog-text{
+	float:left;
+	padding:30px 0 0 25px;
+}
+
+.blog-date{
+	display:inline-block;
+	font-size:12px;
+}
+
+.category{
+	width:100%;
+	height:120px;
+	text-align:center;
+	padding:5px 8px;
+	background-color:#acabab;
+	border-radius:3px;
+	color:#fff;
+	font-size:11px;
 }
 
 .sidebar{
-	width:240px;
-	height:1400px;
-	/*background-color:palegreen;*/
+	width:230px;
 	float:left;
+}
+
+.sidebar-headline, .instagram-headline, .category-headline{
+	border-bottom:8px solid #f7f7f7;
+	text-align:center;
+	line-height:0.6;
+}
+
+.sidebar-contents{
+	padding:50px 0;
+}
+
+.popular-text, .category-text{
+	padding-bottom:5px;
+	border-bottom:1px solid #f7f7f7;
+	margin-bottom:5px;
+}
+
+.popular-text:last-child, .category-text:last-child{
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+.instagram-box{
+	float:left;
+	width:110px;
+	padding-top:110px;
+	background-size:cover;
+	background-position:center;
+}
+
+.instagram-box:nth-child(odd) {
+ 	margin: 0 10px 10px 0;
+}
+
+.instagram-box:nth-child(1) {
+	background-image: url(img/airport.jpg);
+}
+.instagram-box:nth-child(2) {
+ 	background-image: url(img/japan.jpg);
+}
+.instagram-box:nth-child(3) {
+	background-image: url(img/snow.jpg);
+}
+.instagram-box:nth-child(4) {
+	background-image: url(img/japan2.jpg);
+}
+.instagram-box:nth-child(5) {
+	background-image: url(img/lake.jpg);
+}
+.instagram-box:nth-child(6) {
+	background-image: url(img/road.jpg);
 }
 
 footer{
