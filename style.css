@@ -85,6 +85,22 @@ main{
 	padding-top:50px;
 }
 
+.pagination{
+	text-align:center;
+	padding-top:50px;
+}
+
+.pagination p{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	color:#fff;
+	background-color:#acabab;
+	border-radius:3px;
+	margin:0 5px;
+	line-height:30px;
+}
+
 
 .blog-item{
 	padding-bottom:20px;
