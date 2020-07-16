@@ -14,7 +14,12 @@ a{
 	clear:both;
 }
 
+header, nav, h2, .main-visual, footer{
+	font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header{
+	positon:relative;
 	width:90%;
 	padding:15px 0;
 	margin:0 auto;
@@ -23,6 +28,17 @@ header{
 
 header .headline{
 	font-size:32px;
+}
+
+.social{
+	position:absolute;
+	top:22px;
+	right:22px;
+}
+
+.social i{
+	display:inline-block;
+	margin-left:20px;
 }
 
 .nav-list{
@@ -83,6 +99,22 @@ main{
 
 .blog-box{
 	padding-top:50px;
+}
+
+.pagination{
+	text-align:center;
+	padding-top:50px;
+}
+
+.pagination p{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	color:#fff;
+	background-color:#acabab;
+	border-radius:3px;
+	margin:0 5px;
+	line-height:30px;
 }
 
 
