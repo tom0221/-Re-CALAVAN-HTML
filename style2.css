@@ -44,12 +44,14 @@
 	width:600px;
 	height:600px;
 	background-color:limegreen;
+	float:left;
 }
 
 .sidebar{
 	width:240px;
 	height:600px;
 	background-color:palegreen;
+	float:left;
 }
 
 .footer{
