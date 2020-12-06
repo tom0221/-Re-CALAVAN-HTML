@@ -16,11 +16,6 @@
 	background-color:hotpink;
 }
 
-.clearfix::after{
-	content:"";
-	display:block;
-	clear:both;
-}
 
 .header-bottom{
 	width:100%;
@@ -60,11 +55,6 @@
 	float:left;
 }
 
-/*.clearfix::after{
-	content:"";
-	display:block;
-	clear:both;
-}*/
 
 .footer{
 	width:100%;
