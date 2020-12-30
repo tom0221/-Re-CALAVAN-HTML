@@ -54,7 +54,15 @@ header .headline{
 	text-align:center;
 	padding-top:105px;
 }
-SS
+
+.main-visual-text{
+	color:#fff;
+}
+
+.main-visual-name{
+	margin-top:30px;
+	color:#fff;
+}
 
 .main{
 	width:840px;
